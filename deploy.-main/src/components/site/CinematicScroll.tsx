@@ -211,7 +211,7 @@ function SceneDesign({ p, active }: { p: number; active: boolean }) {
           <span className="h-2.5 w-2.5 rounded-full" style={{ background: `rgb(${255}, ${189 + (1 - color) * 50}, ${46 + (1 - color) * 150})` }} />
           <span className="h-2.5 w-2.5 rounded-full" style={{ background: `rgb(${39 + (1 - color) * 150}, ${201 + (1 - color) * 50}, ${63 + (1 - color) * 150})` }} />
           <span className="ml-4 text-[10px] uppercase tracking-widest" style={{ color: `rgba(255,255,255,${0.4 + color * 0.3})` }}>
-            aurora.finance
+            blushnbeads
           </span>
         </div>
         <div className="grid grid-cols-[1.2fr_1fr] gap-4 p-6">
@@ -361,7 +361,7 @@ function SceneDeploy({ p, active }: { p: number; active: boolean }) {
                 boxShadow: loaded > 0.9 ? "0 0 10px #19e3a2" : "none",
               }}
             />
-            aurora.finance
+            blushnbeads
           </span>
           <span className="ml-auto text-[10px] uppercase tracking-widest" style={{ color: loaded > 0.9 ? "#19e3a2" : "rgba(255,255,255,0.4)" }}>
             {loaded > 0.95 ? "LIVE" : loaded > 0.5 ? "DEPLOYING…" : "BUILD"}

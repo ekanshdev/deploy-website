@@ -19,7 +19,7 @@ export const Route = createFileRoute("/contact")({
 
 const channels = [
   { icon: Mail, label: "Email", value: "hellodeployhq@gmail.com", href: "mailto:hellodeployhq@gmail.com" },
-  { icon: Calendar, label: "Book a call", value: "30-min intro", href: "mailto:hellodeployhq@gmail.com?subject=Intro%20call" },
+  { icon: Calendar, label: "Book a call", value: "15-min intro", href: "mailto:hellodeployhq@gmail.com?subject=Intro%20call" },
   { icon: MessageSquare, label: "Response", value: "Within 24 hours", href: "#form" },
 ];
 
@@ -154,6 +154,49 @@ function ContactPage() {
               {sent ? "Opening email…" : "Send brief"} <ArrowRight size={16} />
             </button>
           </form>
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden border-t border-white/10 px-6 py-24">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 opacity-70"
+          style={{
+            background:
+              "radial-gradient(45% 50% at 50% 100%, rgba(124,92,255,0.18), transparent 60%)",
+          }}
+        />
+        <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
+          <Reveal>
+            <p className="text-xs uppercase tracking-[0.3em] text-white/40">
+              Prefer the direct route?
+            </p>
+          </Reveal>
+          <Reveal delay={80}>
+            <h2 className="mt-5 text-3xl font-black leading-tight tracking-tight md:text-5xl">
+              Or email us right away.
+            </h2>
+          </Reveal>
+          <Reveal delay={160}>
+            <a
+              href="mailto:hellodeployhq@gmail.com"
+              className="glass group mt-8 inline-flex items-center gap-3 rounded-full px-7 py-4 transition hover:-translate-y-0.5"
+            >
+              <Mail size={18} className="text-white/70 transition group-hover:text-white" />
+              <span className="bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-lg font-semibold tracking-tight text-transparent">
+                hellodeployhq@gmail.com
+              </span>
+              <ArrowRight
+                size={18}
+                className="text-white/40 transition group-hover:translate-x-1 group-hover:text-white"
+              />
+            </a>
+          </Reveal>
+          <Reveal delay={240}>
+            <p className="mt-6 text-sm text-white/40">
+              We read every message ourselves — typically replying within 24 hours.
+            </p>
+          </Reveal>
         </div>
       </section>
 
