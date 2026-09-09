@@ -7,7 +7,7 @@ import { Reveal, ScrollProgress } from "@/components/site/scroll";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Deploy." },
+      { title: "About Us | Deploy." },
       { name: "description", content: "A focused studio building websites that help businesses grow." },
       { property: "og:title", content: "About — Deploy." },
       { property: "og:description", content: "The people behind Deploy." },
@@ -59,7 +59,7 @@ function AboutPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/60">
             Deploy is an independent web studio focused on creating modern, high-performance websites for businesses of every size. 
-            We combine thoughtful design with clean development to build experiences that look exceptional and launch — in days, not months.
+            We combine thoughtful design with clean development to build experiences that look exceptional and launch. In days, not months.
           </p>
         </div>
       </section>
