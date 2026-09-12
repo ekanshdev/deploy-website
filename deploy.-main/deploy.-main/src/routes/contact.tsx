@@ -8,7 +8,7 @@ import { Reveal, ScrollProgress } from "@/components/site/scroll";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact. | Deploy." },
+      { title: "Contact — Deploy." },
       { name: "description", content: "Start a project with Deploy. Tell us about your idea and we'll be in touch within 24 hours." },
       { property: "og:title", content: "Contact — Deploy." },
       { property: "og:description", content: "Start a project with Deploy." },
