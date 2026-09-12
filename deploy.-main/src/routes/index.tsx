@@ -11,7 +11,7 @@ import faviconUrl from "@/assets/favicon.jpg"
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Deploy. | We design, build, and launch premium products" },
+      { title: "Deploy." },
       { name: "description", content: "A senior product studio shipping premium brand, web, and product experiences in days." },
       { property: "og:title", content: "Deploy. — Premium digital craft" },
       { property: "og:description", content: "We design, build, and launch product experiences in days, not months." },
