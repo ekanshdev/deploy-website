@@ -23,7 +23,7 @@ const founders = [
     bio: "Designs and builds the studio's craft — from first concept to the last shipped pixel.",
     initials: "ES",
     accent: "#7c5cff",
-    linkedin: "https://www.linkedin.com/in/ekansh-swarnkar-286515416/",
+    linkedin: "https://www.linkedin.com/in/ekansh-swarnkar",
     whatsapp: "https://wa.me/918368549302",
   },
   {
