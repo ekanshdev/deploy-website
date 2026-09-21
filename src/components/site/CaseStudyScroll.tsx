@@ -35,21 +35,21 @@ export const BLUSH_CASE: CaseStudyConfig = {
   frames: [
     {
       src: bbProducts,
-      eyebrow: "01 — Catalog",
+      eyebrow: "01 - Catalog",
       title: "A storefront that feels handmade.",
-      body: "Every product photographed in natural light, laid out on a calm canvas so the jewelry — not the UI — does the talking.",
+      body: "Every product photographed in natural light, laid out on a calm canvas so the jewelry - not the UI - does the talking.",
     },
     {
       src: bbAbout,
-      eyebrow: "02 — Story",
+      eyebrow: "02 - Story",
       title: "Where tradition meets tenderness.",
       body: "An About page written like a letter. Soft serif headlines, generous space, a single image that anchors the brand's heritage.",
     },
     {
       src: bbProduct,
-      eyebrow: "03 — Product",
+      eyebrow: "03 - Product",
       title: "Details that earn the sale.",
-      body: "Variant pickers, stock state, soft urgency. A buy flow tuned for handmade pieces — slow, considered, confident.",
+      body: "Variant pickers, stock state, soft urgency. A buy flow tuned for handmade pieces - slow, considered, confident.",
     },
   ],
 };
@@ -64,27 +64,27 @@ export const DAYAMED_CASE: CaseStudyConfig = {
   frames: [
     {
       src: dayamedHome,
-      eyebrow: "01 — Home",
+      eyebrow: "01 - Home",
       title: "Trust, engineered in pixels.",
-      body: "A calm, clinical hero that leads with GMP certification and 200+ formulations — the credibility signals hospitals and distributors look for first.",
+      body: "A calm, clinical hero that leads with GMP certification and 200+ formulations - the credibility signals hospitals and distributors look for first.",
     },
     {
       src: dayamedProducts,
-      eyebrow: "02 — Products",
+      eyebrow: "02 - Products",
       title: "Featured formulations, front and centre.",
-      body: "Flagship SKUs surfaced as editorial cards — category chips, quantities, and a clear enquire path built for B2B healthcare buyers.",
+      body: "Flagship SKUs surfaced as editorial cards - category chips, quantities, and a clear enquire path built for B2B healthcare buyers.",
     },
     {
       src: dayamedAbout,
-      eyebrow: "03 — About",
+      eyebrow: "03 - About",
       title: "Built on trust. Driven by healthcare.",
-      body: "A brand story told with generous whitespace and confident typography — anchoring 200+ trusted formulations to a real Dehradun-based operation.",
+      body: "A brand story told with generous whitespace and confident typography - anchoring 200+ trusted formulations to a real Dehradun-based operation.",
     },
     {
       src: dayamedContact,
-      eyebrow: "04 — Contact",
+      eyebrow: "04 - Contact",
       title: "One handshake away.",
-      body: "A dual-column contact experience — enquiry form on one side, visit and call details on the other. Zero friction for partners ready to move.",
+      body: "A dual-column contact experience - enquiry form on one side, visit and call details on the other. Zero friction for partners ready to move.",
     },
   ],
 };
@@ -336,7 +336,7 @@ function InteractiveGallery({ config }: { config: CaseStudyConfig }) {
           </div>
           <p className="max-w-sm text-sm text-white/55">
             Tap any thumbnail to jump straight to that screen. The scroll story
-            is over — this is the museum.
+            is over - this is the museum.
           </p>
         </div>
 

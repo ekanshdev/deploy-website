@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { useSectionProgress } from "./scroll";
 
-/* ───────── Reality Check — stacking cards on scroll ───────── */
+/* ───────── Reality Check - stacking cards on scroll ───────── */
 
 const PROBLEMS = [
   {
@@ -13,12 +13,12 @@ const PROBLEMS = [
   {
     n: "02",
     t: "Your site looks outdated",
-    d: "First impressions take 0.05 seconds. An outdated site signals an outdated business — before a single word is read.",
+    d: "First impressions take 0.05 seconds. An outdated site signals an outdated business - before a single word is read.",
   },
   {
     n: "03",
     t: "Leads fall through the cracks",
-    d: "No capture system. No follow-up flow. Potential customers find you, can't figure out the next step, and leave — silently.",
+    d: "No capture system. No follow-up flow. Potential customers find you, can't figure out the next step, and leave - silently.",
   },
   {
     n: "04",

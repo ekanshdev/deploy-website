@@ -10,7 +10,7 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact. | Deploy." },
       { name: "description", content: "Start a project with Deploy. Tell us about your idea and we'll be in touch within 24 hours." },
-      { property: "og:title", content: "Contact — Deploy." },
+      { property: "og:title", content: "Contact - Deploy." },
       { property: "og:description", content: "Start a project with Deploy." },
     ],
   }),
@@ -35,12 +35,12 @@ function ContactPage() {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
     const params = new URLSearchParams({
-      subject: `New project — ${fd.get("name") ?? ""}`,
+      subject: `New project - ${fd.get("name") ?? ""}`,
       body: [
         `Name: ${fd.get("name") ?? ""}`,
         `Company: ${fd.get("company") ?? ""}`,
-        `Budget: ${budget ?? "—"}`,
-        `Timeline: ${timeline ?? "—"}`,
+        `Budget: ${budget ?? "-"}`,
+        `Timeline: ${timeline ?? "-"}`,
         ``,
         `${fd.get("message") ?? ""}`,
       ].join("\n"),
@@ -70,7 +70,7 @@ function ContactPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/60">
             We take on a few projects a quarter. Share the shape of yours and we'll reply within 24 hours
-            with whether we're a fit — and what shipping it would look like.
+            with whether we're a fit - and what shipping it would look like.
           </p>
         </div>
       </section>
@@ -104,7 +104,7 @@ function ContactPage() {
               A few details. That's all we need to start.
             </h2>
             <p className="mt-5 text-white/60">
-              Don't worry about polish — a paragraph and a link to anything relevant goes a long way.
+              Don't worry about polish - a paragraph and a link to anything relevant goes a long way.
               We read every message ourselves.
             </p>
           </div>
@@ -194,7 +194,7 @@ function ContactPage() {
           </Reveal>
           <Reveal delay={240}>
             <p className="mt-6 text-sm text-white/40">
-              We read every message ourselves — typically replying within 24 hours.
+              We read every message ourselves - typically replying within 24 hours.
             </p>
           </Reveal>
         </div>

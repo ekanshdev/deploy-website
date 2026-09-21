@@ -10,7 +10,7 @@ export const Route = createFileRoute("/process")({
     meta: [
       { title: "Process | Deploy." },
       { name: "description", content: "Four weeks from first call to launch. Discover, design, build, deploy, grow." },
-      { property: "og:title", content: "Process — Deploy." },
+      { property: "og:title", content: "Process - Deploy." },
       { property: "og:description", content: "How Deploy ships premium products in weeks, not months." },
     ],
   }),
@@ -47,7 +47,7 @@ function ProcessPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/60">
             A repeatable five-stage process that bias toward shipping every single week.
-            No black boxes — you see progress in real time, in a shared Linear and Slack.
+            No black boxes - you see progress in real time, in a shared Linear and Slack.
           </p>
         </div>
       </section>

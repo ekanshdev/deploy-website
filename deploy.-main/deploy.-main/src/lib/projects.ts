@@ -37,7 +37,7 @@ export const projects: Project[] = [
     strategy:
       "Lead with the craft. Let the photography breathe. Treat each collection like a small story, not a product grid.",
     build:
-      "A responsive storefront with collection pages, product detail layouts, an About story, and contact — all built around the brand's blush and gold palette.",
+      "A responsive storefront with collection pages, product detail layouts, an About story, and contact - all built around the brand's blush and gold palette.",
     metrics: [
       { label: "Status", value: "Live" },
       { label: "Type", value: "Storefront" },

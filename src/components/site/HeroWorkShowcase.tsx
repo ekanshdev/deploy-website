@@ -88,7 +88,7 @@ export function HeroWorkShowcase() {
             }}
           />
 
-          {/* Prev / Next — visible on md+ (hover-capable) */}
+          {/* Prev / Next - visible on md+ (hover-capable) */}
           <button
             type="button"
             aria-label="Previous work"

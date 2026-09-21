@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "We design, build, and launch product experiences. In days, not months." },
 =======
       { name: "description", content: "A senior product studio shipping premium brand, web, and product experiences in days." },
-      { property: "og:title", content: "Deploy. — Premium digital craft" },
+      { property: "og:title", content: "Deploy. - Premium digital craft" },
       { property: "og:description", content: "We design, build, and launch product experiences in days, not months." },
 >>>>>>> 2593e9d3884a2094ed9bac29a93f5081caad73fb
     ],
@@ -138,7 +138,7 @@ function Home() {
         </div>
       </section>
 
-      {/* CINEMATIC SCROLL — pinned 7-scene build sequence */}
+      {/* CINEMATIC SCROLL - pinned 7-scene build sequence */}
       <CinematicScroll />
 
       {/* SERVICES TEASER */}
@@ -151,7 +151,7 @@ function Home() {
                 A small studio. The whole stack.
               </h2>
               <p className="mt-5 max-w-xl text-base text-white/60">
-                Brand, product design, engineering, launch and growth — six disciplines, one team.
+                Brand, product design, engineering, launch and growth - six disciplines, one team.
               </p>
             </div>
             <Link
@@ -183,7 +183,7 @@ function Home() {
         </div>
       </section>
 
-      {/* REALITY CHECK — stacking cards */}
+      {/* REALITY CHECK - stacking cards */}
       <RealityCheck />
 
       {/* PROCESS TEASER */}
@@ -221,7 +221,7 @@ function Home() {
       {/* SPEED COMPARISON */}
       <SpeedSection />
 
-      {/* FINAL CTA — bloom */}
+      {/* FINAL CTA - bloom */}
       <FinalCTA />
 
       <Footer />

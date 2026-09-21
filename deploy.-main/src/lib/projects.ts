@@ -65,7 +65,7 @@ export const projects: Project[] = [
     strategy:
       "Lead with credibility. Foreground GMP certification, 200+ formulations, and pan-India distribution before selling anything.",
     build:
-      "Responsive marketing site with Home, About, Products, Quality, and Contact — built with React, GSAP animations, and a healthcare-grade blue system.",
+      "Responsive marketing site with Home, About, Products, Quality, and Contact - built with React, GSAP animations, and a healthcare-grade blue system.",
     metrics: [
       { label: "Industry", value: "Healthcare" },
       { label: "Services", value: "UI/UX + Dev" },

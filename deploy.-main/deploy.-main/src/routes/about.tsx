@@ -20,7 +20,7 @@ const founders = [
   {
     name: "Ekansh Swarnkar",
     role: "Founder",
-    bio: "Designs and builds the studio's craft — from first concept to the last shipped pixel.",
+    bio: "Designs and builds the studio's craft - from first concept to the last shipped pixel.",
     initials: "ES",
     accent: "#7c5cff",
     linkedin: "https://www.linkedin.com/in/ekansh-swarnkar",
@@ -29,7 +29,7 @@ const founders = [
   {
     name: "Pranshu Srivastava",
     role: "Co-Founder",
-    bio: "Runs partnerships and product strategy — makes sure every project ships and lands.",
+    bio: "Runs partnerships and product strategy - makes sure every project ships and lands.",
     initials: "PS",
     accent: "#19e3a2",
     linkedin: "https://www.linkedin.com/in/pranshu-srivastava/",
@@ -59,7 +59,7 @@ function AboutPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/60">
             Deploy is an independent web studio focused on creating modern, high-performance websites for businesses of every size. 
-            We combine thoughtful design with clean development to build experiences that look exceptional and launch — in days, not months.
+            We combine thoughtful design with clean development to build experiences that look exceptional and launch - in days, not months.
           </p>
         </div>
       </section>

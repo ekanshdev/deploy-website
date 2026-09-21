@@ -8,8 +8,8 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services | Deploy." },
-      { name: "description", content: "Brand, product design, engineering, launch and growth — handled end-to-end by Deploy." },
-      { property: "og:title", content: "Services — Deploy." },
+      { name: "description", content: "Brand, product design, engineering, launch and growth - handled end-to-end by Deploy." },
+      { property: "og:title", content: "Services - Deploy." },
       { property: "og:description", content: "A small senior studio. The whole stack." },
     ],
   }),
@@ -47,7 +47,7 @@ function ServicesPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/60">
             Six disciplines, one team. We embed with founders and platform leads
-            and own the work end-to-end — no handoffs, no agencies-of-agencies.
+            and own the work end-to-end - no handoffs, no agencies-of-agencies.
           </p>
         </div>
       </section>

@@ -132,7 +132,7 @@ function Home() {
         </div>
       </section>
 
-      {/* CINEMATIC SCROLL — pinned 7-scene build sequence */}
+      {/* CINEMATIC SCROLL - pinned 7-scene build sequence */}
       <CinematicScroll />
 
       {/* SERVICES TEASER */}
@@ -145,7 +145,7 @@ function Home() {
                 A small studio. The whole stack.
               </h2>
               <p className="mt-5 max-w-xl text-base text-white/60">
-                Brand, product design, engineering, launch and growth — six disciplines, one team.
+                Brand, product design, engineering, launch and growth - six disciplines, one team.
               </p>
             </div>
             <Link
@@ -177,7 +177,7 @@ function Home() {
         </div>
       </section>
 
-      {/* REALITY CHECK — stacking cards */}
+      {/* REALITY CHECK - stacking cards */}
       <RealityCheck />
 
       {/* PROCESS TEASER */}
@@ -215,7 +215,7 @@ function Home() {
       {/* SPEED COMPARISON */}
       <SpeedSection />
 
-      {/* FINAL CTA — bloom */}
+      {/* FINAL CTA - bloom */}
       <FinalCTA />
 
       <Footer />

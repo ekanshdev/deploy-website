@@ -2,7 +2,7 @@ import { useSectionProgress } from "./scroll";
 import { ArrowRight, Layers, Code2, Database, FormInput, BarChart3, Workflow } from "lucide-react";
 
 /* ───────────────────────────────────────────────────────────────────────────
-   CINEMATIC SCROLL — 7 scenes pinned, scroll-linked timeline.
+   CINEMATIC SCROLL - 7 scenes pinned, scroll-linked timeline.
    Pure CSS transforms driven by section progress. No GSAP needed.
    ─────────────────────────────────────────────────────────────────────────── */
 
@@ -67,25 +67,25 @@ export function CinematicScroll() {
         {/* Animated grid backdrop */}
         <Grid p0={p0} p1={p1} p6={p6} />
 
-        {/* Scene 1 — IDEA: glowing dot */}
+        {/* Scene 1 - IDEA: glowing dot */}
         <SceneIdea p={p0} active={idx === 0} />
 
-        {/* Scene 2 — WIREFRAME */}
+        {/* Scene 2 - WIREFRAME */}
         <SceneWireframe p={p1} active={idx === 1} />
 
-        {/* Scene 3 — DESIGN */}
+        {/* Scene 3 - DESIGN */}
         <SceneDesign p={p2} active={idx === 2} />
 
-        {/* Scene 4 — DEVELOPMENT exploded layers */}
+        {/* Scene 4 - DEVELOPMENT exploded layers */}
         <SceneDev p={p3} active={idx === 3} />
 
-        {/* Scene 5 — DEPLOYMENT reassembly */}
+        {/* Scene 5 - DEPLOYMENT reassembly */}
         <SceneDeploy p={p4} active={idx === 4} />
 
-        {/* Scene 6 — LAUNCH metrics */}
+        {/* Scene 6 - LAUNCH metrics */}
         <SceneLaunch p={p5} active={idx === 5} />
 
-        {/* Scene 7 — DEPLOY REVEAL */}
+        {/* Scene 7 - DEPLOY REVEAL */}
         <SceneReveal p={p6} active={idx === 6} />
 
         {/* Scene caption */}

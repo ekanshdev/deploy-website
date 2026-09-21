@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About Us | Deploy." },
       { name: "description", content: "A focused studio building websites that help businesses grow." },
-      { property: "og:title", content: "About — Deploy." },
+      { property: "og:title", content: "About - Deploy." },
       { property: "og:description", content: "The people behind Deploy." },
     ],
   }),
@@ -20,7 +20,7 @@ const founders = [
   {
     name: "Ekansh Swarnkar",
     role: "Founder",
-    bio: "Designs and builds the studio's craft — from first concept to the last shipped pixel.",
+    bio: "Designs and builds the studio's craft - from first concept to the last shipped pixel.",
     initials: "ES",
     accent: "#7c5cff",
     linkedin: "https://www.linkedin.com/in/ekansh-swarnkar",
@@ -29,7 +29,7 @@ const founders = [
   {
     name: "Pranshu Srivastava",
     role: "Co-Founder",
-    bio: "Runs partnerships and product strategy — makes sure every project ships and lands.",
+    bio: "Runs partnerships and product strategy - makes sure every project ships and lands.",
     initials: "PS",
     accent: "#19e3a2",
     linkedin: "https://www.linkedin.com/in/pranshu-srivastava/",

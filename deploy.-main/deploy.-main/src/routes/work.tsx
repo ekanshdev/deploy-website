@@ -18,12 +18,12 @@ export const Route = createFileRoute("/work")({
       {
         name: "description",
         content:
-          "Selected work from Deploy. — handcrafted websites built with care.",
+          "Selected work from Deploy. - handcrafted websites built with care.",
       },
-      { property: "og:title", content: "Work — Deploy." },
+      { property: "og:title", content: "Work - Deploy." },
       {
         property: "og:description",
-        content: "Selected work from Deploy. — handcrafted websites built with care.",
+        content: "Selected work from Deploy. - handcrafted websites built with care.",
       },
     ],
   }),
