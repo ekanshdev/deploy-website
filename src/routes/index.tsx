@@ -12,15 +12,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Deploy." },
-<<<<<<< HEAD
       { name: "description", content: "An independent studio shipping premium brand, web, and product experiences in days." },
       { property: "og:title", content: "Deploy. Premium digital craft" },
       { property: "og:description", content: "We design, build, and launch product experiences. In days, not months." },
-=======
-      { name: "description", content: "A senior product studio shipping premium brand, web, and product experiences in days." },
-      { property: "og:title", content: "Deploy. — Premium digital craft" },
-      { property: "og:description", content: "We design, build, and launch product experiences in days, not months." },
->>>>>>> 2593e9d3884a2094ed9bac29a93f5081caad73fb
     ],
     links: [
       { rel: "icon", type: "image/png", href: faviconUrl },
