@@ -9,9 +9,7 @@ export function Footer() {
           <p className="mt-2 text-sm text-white/40">Premium digital craft. Shipped in days, not months.</p>
         </div>
         <div className="flex items-center gap-6 text-sm text-white/60">
-          <a href="#" className="transition hover:text-white">Twitter</a>
-          <a href="https://instagram.com/deploynow" target="_blank" rel="noreferrer" className="transition hover:text-white">Instagram</a>
-          <a href="#" className="transition hover:text-white">LinkedIn</a>
+          <a href="https://instagram.com/deployhq_" target="_blank" rel="noreferrer" className="transition hover:text-white">Instagram</a>
           <a href="mailto:hello@deploy.dev" className="transition hover:text-white">hello@deploy.dev</a>
         </div>
         <p className="text-xs text-white/30">© {new Date().getFullYear()} Deploy.</p>

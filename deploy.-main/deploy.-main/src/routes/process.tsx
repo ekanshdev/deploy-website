@@ -8,7 +8,7 @@ import { RealityCheck, SpeedSection } from "@/components/site/sections";
 export const Route = createFileRoute("/process")({
   head: () => ({
     meta: [
-      { title: "Process — Deploy." },
+      { title: "Process | Deploy." },
       { name: "description", content: "Four weeks from first call to launch. Discover, design, build, deploy, grow." },
       { property: "og:title", content: "Process — Deploy." },
       { property: "og:description", content: "How Deploy ships premium products in weeks, not months." },

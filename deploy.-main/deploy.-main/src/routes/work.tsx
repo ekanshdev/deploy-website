@@ -14,7 +14,7 @@ const CASES: Record<string, typeof BLUSH_CASE> = {
 export const Route = createFileRoute("/work")({
   head: () => ({
     meta: [
-      { title: "Work — Deploy." },
+      { title: "Work | Deploy." },
       {
         name: "description",
         content:

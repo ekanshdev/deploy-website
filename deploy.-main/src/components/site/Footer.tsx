@@ -10,7 +10,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-6 text-sm text-white/60">
           <a href="#" className="transition hover:text-white">Twitter</a>
-          <a href="https://instagram.com/deploynow" target="_blank" rel="noreferrer" className="transition hover:text-white">Instagram</a>
+          <a href="https://instagram.com/deployhq_" target="_blank" rel="noreferrer" className="transition hover:text-white">Instagram</a>
           <a href="#" className="transition hover:text-white">LinkedIn</a>
           <a href="mailto:hello@deploy.dev" className="transition hover:text-white">hello@deploy.dev</a>
         </div>

@@ -11,7 +11,7 @@ import faviconUrl from "@/assets/favicon.jpg"
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Deploy. — We design, build, and launch premium products" },
+      { title: "Deploy." },
       { name: "description", content: "A senior product studio shipping premium brand, web, and product experiences in days." },
       { property: "og:title", content: "Deploy. — Premium digital craft" },
       { property: "og:description", content: "We design, build, and launch product experiences in days, not months." },
@@ -63,7 +63,7 @@ function Home() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-white/70">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                Booking Q3 — 2 slots
+                Slots open now
               </span>
 
               <h1 className="mt-6 text-5xl font-black leading-[0.95] tracking-tight md:text-7xl">
@@ -85,7 +85,7 @@ function Home() {
 
               <p className="mt-6 max-w-xl text-lg text-white/60 md:text-xl">
                 Deploy. is a senior product studio. We partner with founders and platform teams
-                to ship brand, web, and product experiences that feel inevitable — in days, not months.
+                to ship brand, web, and product experiences that feel inevitable. In days, not months.
               </p>
 
               <div className="mt-10 flex flex-wrap items-center gap-3">
